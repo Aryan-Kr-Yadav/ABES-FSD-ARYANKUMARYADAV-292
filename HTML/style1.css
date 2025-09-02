@@ -9,7 +9,7 @@ body{
     /* justify-content: center;
     width: 100vw; */
     /* align-items: center; */
-    /* margin-left:350px; */
+    /* margin-left:3200px; */
     display: flex;
     justify-content: center;
     
@@ -21,37 +21,102 @@ body{
     height:300px;
     display: flex;
     border: 5px solid black;
-    align-content: center;
+    /* align-content: center; */
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
+    
 
 }
 #box1{
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: orange;
     border: solid black;
+    text-emphasis-color: red;
     /* display: inline-table; */
     text-align: center;
+    color: orange;
+    transition: all 2s ease-in;
     /* text-decoration: 4px dotted underline; */
     /* margin-top: 0px; */
+    /* flex-direction: row; */
 }
 #box2{
     width: 200px;
     height: 200px;
     background-color: blue;
     border: solid black;
+    color: blue;
     /* display: inline-table; */
     text-align: center;
+    transition: all 2s ease-in;
     /* text-decoration: 4px wavy underline; */
+    /* flex-direction: row; */
+    animation:coloranimate 2s ease-in 0s infinite normal;
 }
 #box3{
     width: 200px;
     height: 200px;
     background-color: green;
     border: solid black;
+    color: green;
     /* display: inline-table; */
     text-align: center;
+    transition: all 2s ease-in;
     /* text-decoration: 4px dashed underline ; */
+    /* flex-direction: row; */
+}
+
+/* .box{
+    /* flex-direction: column; */
+    /* display: flex; */
+ /* footer{
+    align-items: center;
+    height: 1200pxpx;
+    width: 900px;
+ } */
+
+ #box1:hover{
+    color: red;
+    background-color: yellow;
+    transition-duration: 5s;
+    transform: rotate(360deg);
+
+ }
+ #box2:hover{
+    color: green;
+    background-color: yellow;
+    transition-duration: 5s;
+    transform: rotate(360deg);
+
+ }
+ #box3:hover{
+    color: black;
+    background-color: yellow;
+    transition-duration: 1s;
+    transform: rotate(360deg);
+    transform: translate(20px);
+
+ }
+ #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: end;
+    height: 340px;
+ }
+ .container1{
+    border: 2px solid black;
+    background-color: aquamarine;
+ }
+ @keyframes coloranimate
+{
+    from{
+        left:-20px;
+
+    }
+    to{
+        left:200px;
+    }
 }
