@@ -24,6 +24,8 @@ a{
     text-justify: distribute;
     color: #896C6C;
     font-size: 18px;
+    /* border: 2px solid black;
+    border-radius: 5px; */
     
 }
 
@@ -35,7 +37,7 @@ a{
     justify-content: center;
     align-items: center;
     margin-left: 3%;
-    background-color: #EFEEEA;
+    /* background-color: #EFEEEA; */
     border-radius: 6px;
     height: 30px;
     margin-top: 3%;
@@ -59,4 +61,38 @@ image:hover{
 }
 #form{
     display: flex;
+}
+#about{
+    border-radius: 10px;
+    border: solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#project{
+    border-radius: 10px;
+    border: solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#skill{
+    border-radius: 10px;
+    border: solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Education{
+    border-radius: 10px;
+    border: solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact{
+    border-radius: 10px;
+    border: solid black;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
