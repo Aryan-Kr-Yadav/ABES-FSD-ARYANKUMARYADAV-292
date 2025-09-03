@@ -28,6 +28,19 @@ a{
     border-radius: 5px; */
     
 }
+#cse{
+    font-size: 20px;
+    font-weight: bold;
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    /* background-color: #EFEEEA; */
+    border-radius: 6px;
+    height: 30px;
+    margin-top: 5%;
+}
 
 #name{
     font-size: 20px;
