@@ -1,0 +1,46 @@
+*{
+    background-color: #F5EFE6;
+}
+
+th, td {
+  padding: 15px;
+  border: 2px solid black;
+  background-color:lightgray;
+}
+
+#table{
+  /* border-collapse: collapse; */
+  /* width: 100vw; */
+  background-color: lightgrey;
+  /* text-align: center; */
+}
+table{
+  border-collapse: collapse;
+  width: 100vw;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#name{
+    /* padding-top: 30px; */
+    width: 100px;
+    display: flex;
+    padding-right: 770px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(245, 172, 190);
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* gap: 500px; */
+}
+img{
+    border-radius:50px;
+    box-shadow: 5px 5px 5px rgb(200, 145, 145);
+    margin-right:10px ;
+    margin-bottom:10px ;
+}
