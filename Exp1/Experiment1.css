@@ -132,3 +132,7 @@ img{
     padding: 20px;
     
 }
+
+#loginpage{
+  display: flex;
+}
