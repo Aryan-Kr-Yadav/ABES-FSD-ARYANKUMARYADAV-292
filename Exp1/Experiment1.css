@@ -83,7 +83,7 @@ table{
 }
 img{
     border-radius:50px;
-    box-shadow: 5px 5px 5px rgb(200, 145, 145);
+    box-shadow: 5px 5px 5px rgb(200, 145, 145),-5px 5px 5px rgb(200, 145, 145);
     margin-right:10px ;
     margin-bottom:10px ;
 }
